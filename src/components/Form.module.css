@@ -1,0 +1,35 @@
+.formcontainer{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: -40px;
+}
+
+.inputcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    height: 34px;
+    width: 38vw;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+
+}
+
+.btn{
+    width: 80vw;
+    height: 35px;
+    margin: 30px 0;
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(162, 0, 255));
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}

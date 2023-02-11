@@ -1,0 +1,11 @@
+.navcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 15vh;
+    width: 100vw;
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(162, 0, 255));
+    color: whitesmoke;
+    font-size: 20px
+}
