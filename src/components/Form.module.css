@@ -1,12 +1,12 @@
 .formcontainer{
     width: 100vw;
-    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: -40px;
+    margin-top: 30px;
 }
 
 .inputcontainer{
@@ -32,4 +32,43 @@
     color: whitesmoke;
     border: none;
     border-radius: 5px;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50vw;
+    min-height: 50vh;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.img {
+    max-width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.frasecontainer{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    height: 300px;
+    max-width: 300px;
+   
+}
+
+.texttop,
+.textbottom{
+    color: white;
+    font-size: 30px;
+    word-wrap: break-word;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
 }
